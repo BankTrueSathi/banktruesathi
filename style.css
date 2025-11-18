@@ -1,0 +1,454 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px ;
+}
+/* 🌈 Modern Scrollbar Style */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00ff99;      /* scrollbar color */
+  border-radius: 10px;      /* smooth rounded edges */
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;      /* dark track for contrast */
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+.navbaar {
+    width: 100%;
+    max-width: 100%;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #110f11;
+}
+
+.navbaarc1 {
+    /* color: #9acc1f; */
+    /* background-color: aqua; */
+    width: 20%;
+    text-align: center;
+}
+
+.navbaarc1 p {
+    color: greenyellow;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+}
+
+.B {
+    background-image: linear-gradient(to top, 50% green, red);
+}
+
+.I {
+    /* color: #3e4544; */
+}
+
+.navbaarc2 {
+    display: flex;
+    gap: 150px;
+}
+
+.navbaarc2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbaarc2 a:hover {
+    text-decoration: underline;
+    color: greenyellow;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.intro p {
+    text-align: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+.intro span {
+    text-align: center;
+    font-size: 20px;
+}
+
+.hero {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #110f11;
+}
+
+.heroc1 {
+    width: 80%;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+    background-color: #110f11;
+}
+
+.personalloan {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    /* background-color: antiquewhite; */
+}
+
+.bankaccount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    /* background-color: antiquewhite; */
+}
+
+.Insurance {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    /* background-color: antiquewhite; */
+}
+
+.Shopping {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    /* background-color: antiquewhite; */
+}
+.fa-solid{
+    font-size: 30px;
+    color: greenyellow;
+}
+.heroc1 a{
+    color: rgba(255, 255, 255, 0.539);
+    cursor: pointer;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+.heroc1 a:hover{
+    color: rgba(255, 255, 255, 0.991);
+}
+.s1p{
+    width: 100%;
+}
+.pc1{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #110f11;
+    border-top: 1px solid white;
+}
+.pc1 p{
+    color: white;
+    border-bottom: 3px solid white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* box-shadow: 0px 0px 5px 1px white; */
+}
+.pc2{
+    width: 100%;
+    /* padding: 20px 30px; */
+    display: flex;
+    background-color: aqua;
+}
+.pc2text{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 30px;
+    /* background-color: blue; */
+    background-color: #110f11;
+    padding: 60px 50px;
+}
+.pc3img{
+    width: 40%;
+    /* background-color: red; */
+    background-color: #110f11;
+}
+.Toploan{
+    /* background-color: rgb(165, 42, 104); */
+    display: flex;
+    flex-direction: column;
+
+    gap: 5px;
+    /* margin-bottom: 20%; */
+}
+.Toploan h2{
+    text-align: center;
+    color:#00ff99;
+    /* border-bottom: 2px solid #4ecdc4; */
+    display: inline-block;
+    padding-bottom: 4px;
+    font-size: 30px;
+}
+.Toploan p{
+    color:#ccc;
+    /* font-size: 17px; */
+    margin-top: 8px;
+}
+.pc3img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.loanapps{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    /* background-color: chocolate; */
+}
+.loanapps img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-bottom: 5px;
+    transition: transform 0.2 ease;
+}
+.loanapps img:hover{
+    transform: scale(1.1);
+}
+.loanapps a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    width: 80px;
+    text-decoration: none;
+}
+.allappsoneframe{
+    padding: 35px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    /* background-color: antiquewhite; */
+    box-shadow: 0px 0px 10px 10px #0bed1a11;
+    display: flex;
+    gap: 25px;
+}
+
+
+
+/* Hero Section */
+.hero-banner {
+    text-align:center;
+    padding:50px 20px;
+    background:#111;
+}
+.hero-banner h1 {
+    font-size:28px;
+    margin-bottom:15px;
+    color:#00ff99;
+}
+.hero-banner p {
+    font-size:18px;
+    margin-bottom:20px;
+    color:#ccc;
+}
+.hero-banner button {
+    background:#00ff99;
+    color:#000;
+    border:none;
+    padding:12px 25px;
+    border-radius:25px;
+    cursor:pointer;
+    font-weight:600;
+}
+.hero-banner button:hover {
+    background:white;
+    box-shadow:0 0 10px #00ff99;
+}
+
+
+
+
+
+/* Footer */
+footer {
+    background:#111;
+    padding:50px 20px;
+    text-align:center;
+}
+footer h2 {
+    color:#00ff99;
+    margin-bottom:10px;
+}
+footer p, footer span {
+    color:#ccc;
+    margin-bottom:5px;
+    display:block;
+}
+footer {
+    margin-top:20px;
+    color:#777;
+    font-size:14px;
+}
+.footer-bottom{
+    margin-top:0;
+    color:#777;
+    font-size:14px;
+}
+.allrigth{
+    width: 100%;
+    padding: 5px;
+    background-color: #110f11;
+    text-align: center;
+}
+
+/* Contact Form */
+.contact-form {
+    background:#111;
+    padding:50px 20px;
+    text-align:center;
+    /* display: flex;
+    flex-direction: column;
+    gap: 15px; */
+}
+.contact-form h3 {
+    color:#00ff99;
+    margin-bottom:10px;
+}
+.contact-form a {
+    color:#aaa;
+    font-size: 20px;
+    margin-bottom:20px;
+    text-decoration: none;
+}
+.contact-form form {
+    max-width:400px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+.contact-form input,
+.contact-form textarea {
+    padding:10px 15px;
+    border:1px solid #00ff99;
+    border-radius:8px;
+    background:#111;
+    color:white;
+    outline:none;
+    resize:none;
+}
+.contact-form button {
+    background:#00ff99;
+    color:#000;
+    border:none;
+    padding:10px 20px;
+    border-radius:25px;
+    cursor:pointer;
+    font-weight:600;
+    transition:0.3s;
+}
+.contact-form button:hover {
+    background:white;
+    box-shadow:0 0 10px #00ff99;
+}
+
+
+
+
+
+/* 📱 Responsive */
+@media (max-width: 600px) {
+  .contact-form form {
+    width: 90%;
+  }
+}
+
+
+@media only screen and (max-width:600px) {
+    .pc2{ 
+        flex-direction: column;
+        align-items: center;
+    }
+    .pc1{
+        display: none;
+    }
+    .pc2text , .pc3img{
+        width: 100%;
+    }
+    .pc3img{
+        display: none;
+    }
+    .navbaarc2{
+        display: none;
+    }
+    .navbaarc1{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        /* background-color: aqua; */
+    }
+    .heroc1 a{
+        font-size: 13px;
+        text-align: center;
+    }
+    .hero{
+        position: sticky;
+        top: 0;
+        z-index: 99;
+        padding: 8px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 1px solid #00ff99;
+    }
+    .loanapps a{
+        width: 70px;
+    }
+    .loanapps{
+        gap: 20px;
+    }
+    .Toploan p{
+        text-align: center;
+    }
+    .Toploan {
+        /* background-color: yellow; */
+    }
+    .contact-form h2{
+        font-size: 30px;
+    }
+
+}
